@@ -13,7 +13,7 @@ import { PokemonModule } from './pokemon/pokemon.module';
       rootPath: join(__dirname, '..', 'public'),
     }),
     // Mongoose Module
-    MongooseModule.forRoot('mongodb://localhost:27017/pokemons'),
+    MongooseModule.forRoot('mongodb://localhost:27017/nest-pokemon'),
     PokemonModule,
   ],
   controllers: [AppController],
